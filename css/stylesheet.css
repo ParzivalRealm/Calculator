@@ -1,0 +1,95 @@
+#mainContainer{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgb(255, 255, 255)
+}
+
+.calculatorContainer{
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 600px;
+  border-radius: 10px;
+}
+
+.calculatorDisplayContainer{
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  flex-direction: column;
+  background-color: rgb(51, 67, 102);
+  flex: 0 0 15%;
+  justify-content: center;
+  align-items: flex-end;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.calculatorDisplayContainerText{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px;
+  font-family: monospace;
+  font-size: 5em;
+  color:white;
+}
+
+
+.calculatorButtonsContainer{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  
+
+}
+
+.calculatorRow{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  background-color: rgb(51, 67, 102);
+  flex-grow: 1;
+}
+
+.button{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(229, 229, 229);
+  border-width: 20px;
+  flex: 1;
+  border: 3px solid rgb(51, 67, 102);
+  border-radius: 6px;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonGiveResult {
+  background-color: rgb(252, 163, 17);
+}
+
+
+
+
+.buttonText{
+  color: rgb(20, 33, 61);
+  font-family: monospace;
+  font-size: 2em;
+}
+
+#lastRow{
+  border-bottom-left-radius: 6px ;
+  border-bottom-right-radius: 6px;
+}
+
+
+
+[title = zero]{
+  flex-grow: 3;
+  padding: 7px;
+}
